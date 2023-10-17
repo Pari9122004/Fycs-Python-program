@@ -1,0 +1,13 @@
+# function returning multiple values
+def operation(x,y):
+    add=x+y
+    sub=x-y
+    multi=x*y
+    div=x/y
+    return add, sub, multi, div
+#call operation function
+a, s, m, d = operation (20,56)
+print('Addition of given argument is',a)
+print('subtraction of given argument is',s)
+print('Multiplication of given argument is',m)
+print('Division of given argument is',d)
